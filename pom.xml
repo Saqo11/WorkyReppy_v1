@@ -60,7 +60,7 @@
                     </argLine>
                     <systemPropertyVariables>
                         <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
-                        <allure.link.custom.pattern>https://github.com/vinogradoff/allure-maven-junit5-example/{}
+                        <allure.link.custom.pattern>https://github.com/Saqo11/WorkyReppy_v1/{}
                         </allure.link.custom.pattern>
                     </systemPropertyVariables>
                 </configuration>
