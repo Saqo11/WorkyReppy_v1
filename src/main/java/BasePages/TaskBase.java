@@ -310,7 +310,7 @@ public class TaskBase extends  BasePage{
         click(By.xpath("//div[@class='commentSectBtnWrapper___1hSZB']//button[@class='ant-btn commentSectBtn___ses1D ant-btn-link'][1]"));
         click(By.xpath("//div[@class='commentSectLeftSideBtns___1xUPM']//button[@class='ant-btn commentSectBtn___ses1D ant-btn-link'][2]"));
         click(By.xpath("//button[@class='popoverConfirmBtn___2bJ9j']"));
-        click(By.xpath("//button[@class='ant-btn updateModalBtn___3YJlG']"));
+        click(By.xpath("//button[text()='Save']"));
 
 
 

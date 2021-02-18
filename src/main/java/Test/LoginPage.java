@@ -8,8 +8,8 @@ public class LoginPage extends MainPage {
     @Test
     public void Positive ()  {
         loginbase.goTo()
-                .login("st202010@gmail.com", "test202010@gmail.com")
-                .pass("12345678","2345678" )
+                .login("st202010@gmail.com")
+                .pass("12345678")
                 .chooseTask()
                 .isCorrect();
 
@@ -28,7 +28,7 @@ public class LoginPage extends MainPage {
 
     public void NegativePass (){
         loginbase.goTo()
-                .login("blblbl@mail.com","blblbl@mail.com")
+                .login("blblbl@mail.com")
                 .chooseTask()
                 .loginMessage();
 
@@ -38,7 +38,7 @@ public class LoginPage extends MainPage {
 
     public void NegativeEmail (){
         loginbase.goTo()
-                .pass("1234dddssssd5678", "62626262" )
+                .pass("1234dddssssd5678" )
                 .chooseTask()
                 .emailMessage();
 

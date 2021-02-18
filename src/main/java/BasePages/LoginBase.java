@@ -20,7 +20,7 @@ public class LoginBase extends BasePage{
 
     }
     public LoginBase chooseTask  () {
-        click(By.xpath("//button[@class='ant-btn btn primary-btn']"));
+        click(By.xpath("//button[text()='Sign in']"));
 
         return this;
 
@@ -34,7 +34,7 @@ public class LoginBase extends BasePage{
     }
 
 
-    public LoginBase login (String login,  String log )    {
+    public LoginBase login (String login )    {
 
         driver.findElement(By.id("email")).sendKeys(login);
         //driver.findElement(By.id("email")).sendKeys(log);
@@ -44,7 +44,7 @@ public class LoginBase extends BasePage{
 
     }
 
-    public LoginBase pass (String pass, String pas)  {
+    public LoginBase pass (String pass)  {
 
         driver.findElement(By.id("password")).sendKeys(pass);
         //driver.findElement(By.id("password")).sendKeys(pas);
