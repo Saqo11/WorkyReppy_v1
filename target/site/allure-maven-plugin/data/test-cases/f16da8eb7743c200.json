@@ -1,0 +1,55 @@
+{
+  "uid" : "f16da8eb7743c200",
+  "name" : "ProjectTags()",
+  "fullName" : "Test.TaskPage.ProjectTags",
+  "historyId" : "eb3d84f569649954dcf07df459c6e6a0",
+  "time" : {
+    "start" : 1617977759052,
+    "stop" : 1617977820563,
+    "duration" : 61511
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-4J87STC"
+  }, {
+    "name" : "thread",
+    "value" : "15116@DESKTOP-4J87STC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Test.TaskPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Test.TaskPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "ProjectTags"
+  }, {
+    "name" : "suite",
+    "value" : "Test.TaskPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f16da8eb7743c200.json",
+  "parameterValues" : [ ]
+}

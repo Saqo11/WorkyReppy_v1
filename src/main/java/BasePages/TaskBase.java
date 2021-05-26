@@ -23,8 +23,8 @@ public class TaskBase extends  BasePage{
     public TaskBase removeElements ()  {
 
         try {
-            if (driver.findElement(By.xpath("//span[@class='iconWrapper___at7Wi']")).isDisplayed()) {
-                click(By.xpath("//span[@class='iconWrapper___at7Wi']"));
+            if (driver.findElement(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div/div[1]/div[1]/div/div/div[3]/div/div/button")).isDisplayed()) {
+                click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div/div[1]/div[1]/div/div/div[3]/div/div/button"));
 
 
                 List<WebElement> Tusks = driver.findElements(By.xpath("//tr[@class='ant-table-row ant-table-row-level-0']"));
@@ -34,10 +34,13 @@ public class TaskBase extends  BasePage{
 
                     Thread.sleep(200);
                     Actions actions = new Actions(driver);
-                    actions.moveToElement(driver.findElement(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[4]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]"))).build().perform();
-                    driver.findElement(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[4]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[5]/div/div[2]/span[2]")).click();
-                    driver.findElement(By.xpath("//button[@class='ant-btn ant-btn-primary ant-btn-sm']")).click();
-                    Thread.sleep(9000);
+                    actions.moveToElement(driver.findElement(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div/div[2]/div/div/div/div/div/div/div/table/tbody/tr[1]"))).build().perform();
+
+                    driver.findElement(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div/div[2]/div/div/div/div/div/div/div/table/tbody/tr[1]/td[5]/div/div[2]/span[2]")).click();
+                    Thread.sleep(2000);
+
+                    driver.findElement(By.xpath("//button[text()='Yes']")).click();
+                    Thread.sleep(1000);
 
 
                 }
@@ -77,10 +80,14 @@ public class TaskBase extends  BasePage{
 
                 Thread.sleep(200);
                 Actions actions = new Actions(driver);
-                actions.moveToElement(driver.findElement(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[4]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]"))).build().perform();
-                click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[4]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[5]/div/div[2]/span[2]"));
-                click(By.xpath("//button[@class='ant-btn ant-btn-primary ant-btn-sm']"));
-                Thread.sleep(9000);
+                actions.moveToElement(driver.findElement(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div/div[2]/div/div/div/div/div/div/div/table/tbody/tr[1]"))).build().perform();
+                Thread.sleep(3000);
+                driver.findElement(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div/div[2]/div/div/div/div/div/div/div/table/tbody/tr[1]/td[5]/div/div[2]/span[2]")).click();
+                Thread.sleep(300);
+                driver.findElement(By.xpath("//button[@class='ant-btn app-btn primary-btn md ant-btn-round']")).click();
+                Thread.sleep(2000);
+
+
 
 
             }
@@ -123,31 +130,33 @@ public class TaskBase extends  BasePage{
 
 
 
-        click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[3]/button"));
-        isElementDisplayed(By.xpath("//span[@class='iconWrapper___at7Wi']"));
+        click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div/div[1]/div[1]/div/div/div[3]/div/button"));
+        isElementDisplayed(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div/div[1]/div[1]/div/div/div[3]/div/div/button/span[1]"));
 
         return this;
     }
 
 
-    public   TaskBase  ChooseProjectTags(){
-        click(By.xpath("//span[@class='taskBarText___2dYYK']"));
-        click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div/ul/div/li[3]/span[2]"));
-        click(By.xpath("//div[@class='tagsProjectsWrapper___2auP8']"));
+    public   TaskBase  ChooseProjectTags() throws InterruptedException {
+        click(By.xpath("//span[text()='Add project']"));
+        //click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div/ul/div/li[3]/span[2]"));
+        click(By.xpath("//span[text()=\"internship\"]"));
         //isElementDisplayed(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[19]/span[2]"));
-        click(By.xpath("//span[text()='Doesntdelete']"));
+        Thread.sleep(3000);
+
+        click(By.xpath("//span[text()='content web']"));
 
         return  this;
 
 
     }
     public   TaskBase  ChooseSeveralTags(){
-        click(By.xpath("//span[@class='taskBarText___2dYYK']"));
-        click(By.xpath("//span[text()='Doesntdelete']"));
-        click(By.xpath("//div[@class='tagsProjectsWrapper___2auP8']"));
+        click(By.xpath("//span[text()='Add project']"));
+        click(By.xpath("//span[text()=\"internship\"]"));
+        click(By.xpath("//span[text()=\"hj\"]"));
         //isElementDisplayed(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[19]/span[2]"));
-        click(By.xpath("//span[text()='FortestDoesntdelete']"));
-        click(By.xpath("//div[@class='tagsProjectsWrapper___2auP8']"));
+        click(By.xpath("//span[text()='NewProject']"));
+       // click(By.xpath("//div[@class='tagsProjectsWrapper___2auP8']"));
         //isElementDisplayed(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[24]/span[2]"));
         //click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[24]/span[2]"));
 
@@ -157,36 +166,45 @@ public class TaskBase extends  BasePage{
     }
 
     public   TaskBase AddTag (){
-        click(By.xpath("//span[@class='taskBarText___2dYYK']"));
+        click(By.xpath("//div/span[@class='task-bar-text___2VbLx']"));
         click(By.xpath("//button[@class='ant-btn addTagBtn___A4RaI ant-btn-link']"));
         isElementDisplayed(By.xpath("//div[@class='ant-modal-content']"));
 
         return this;
     }
-    public   TaskBase AddTagName (String TestTag){
-        driver.findElement(By.xpath("//input[@placeholder='Add a tag name...' ]")).sendKeys(TestTag);
+    public   TaskBase AddTagName (String TestTag) throws InterruptedException {
+        click(By.xpath("//div/span[@class='task-bar-text___2VbLx']"));
+        click(By.xpath("//button[@class='ant-btn addTagBtn___3wla9 ant-btn-link']"));
+        driver.findElement(By.xpath("//input[@placeholder='Tag name...']")).sendKeys(TestTag);
+        click(By.xpath("//button[text()='Save']"));
         click(By.xpath("//span[@class='colorBoxCheckmark___2mKEU']"));
-        click(By.xpath("//button[@class='ant-btn addTagBtn___2mkv6 ant-btn-primary']"));
+        Thread.sleep(6000);
+        Actions actions = new Actions(driver);
+
+        actions.moveToElement(driver.findElement(By.xpath("//span[@class=\"close-icon\"]"))).build().perform();
+        click(By.xpath("//span[@class=\"close-icon\"]"));
+        click(By.xpath("//div/span[@class='task-bar-text___2VbLx']"));
+        click(By.xpath("//span[text()='TestTag']"));
 
 
         return this;
     }
     public   TaskBase ManualClock   ( ) throws InterruptedException {
-        click(By.xpath("//div[@class='ant-col ant-col-5 gutter-row col-animate tasksModeSection timerModePlayIconHoverable___1_N_W'][2]"));
+        click(By.xpath("//div[@class='ant-col gutter-row col-animate tasksModeSection ant-col-lg-5']"));
         Thread.sleep(3000);
-        click(By.xpath("//span[@class='timePickerWrapper___1vw78'][1]"));
+        click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div/div[1]/div[1]/div/div/div[4]/div/div[1]/span[2]/span"));
         Thread.sleep(3000);
-        click(By.xpath("//div[@class='ant-time-picker-panel-select'][1]//li[text()='01']"));
+        click(By.xpath("//li[text()='04']"));
 
-        //click(By.xpath("//div[@class='ant-time-picker-panel-select'][2]//li[text()='02']"));
-        Thread.sleep(3000);
-        click(By.xpath("//span[@class='timePickerWrapper___1vw78'][2]"));
-        Thread.sleep(3000);
-        click(By.xpath("//div[@class='ant-time-picker-panel-select'][1]//li[text()='05']"));
-
-        //click(By.xpath("//div[@class='ant-time-picker-panel-select'][2]//li[text()='03']"));
-        Thread.sleep(3000);
-        click(By.xpath("//button[@class='ant-btn manualModeActionsText___2IGeT rightMargin___2K7mU ant-btn-link']"));
+//        //click(By.xpath("//div[@class='ant-time-picker-panel-select'][2]//li[text()='02']"));
+//        Thread.sleep(3000);
+//        click(By.xpath("//span[@class='timePickerWrapper___1vw78'][2]"));
+//        Thread.sleep(3000);
+//        click(By.xpath("//div[@class='ant-time-picker-panel-select'][1]//li[text()='05']"));
+//
+//        //click(By.xpath("//div[@class='ant-time-picker-panel-select'][2]//li[text()='03']"));
+//        Thread.sleep(3000);
+        click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div/div[1]/div[1]/div/div/div[4]/div/div[2]/button[1]"));
 
 
         return this;
@@ -201,17 +219,22 @@ public class TaskBase extends  BasePage{
         return this;
 
     }
-    public  TaskBase dalilyReportValid(String horse,  String minuts){
-        click(By.xpath("//button[@class='ant-btn secondaryBtn___LZHjR']"));
-        click(By.xpath("//span[@class='plusIcon___2n91m']"));
-        click(By.xpath("//div[@class='project___V_LOZ ant-select ant-select-enabled' ]"));
-        click(By.xpath("//li[text()='Project Name']"));
-        driver.findElement(By.xpath("//input[@class='hour___2fJp9' ]")).sendKeys(horse);
-        driver.findElement(By.xpath("//input[@class='minute___2HqOe' ]")).sendKeys(minuts);
+    public  TaskBase dalilyReportValid(String horse,  String minuts) throws InterruptedException {
+        Thread.sleep(3000);
 
-        click(By.xpath("//button[@class='ant-btn modalSubmitBtn___QJig1 ant-btn-primary ant-btn-round']"));
-        click(By.xpath("//button[text()='Reset Daily Report']"));
-        isElementDisplayed(By.xpath("//button[text()='Daily Report']"));
+        click(By.xpath("//button[@class='ant-btn app-btn primary-btn-outline md']"));
+        Thread.sleep(3000);
+
+        click(By.xpath("//span[@class='plusIcon___2Y6Js']"));
+        Thread.sleep(3000);
+
+        click(By.xpath("//div[@class='project___1Wlom ant-select ant-select-enabled']"));
+        click(By.xpath("//li[text()='content web']"));
+        driver.findElement(By.xpath("//input[@class='hour___3bjxu' ]")).sendKeys(horse);
+        driver.findElement(By.xpath("//input[@class='minute___3UX36' ]")).sendKeys(minuts);
+
+        click(By.xpath("//button[text()='Submit']"));
+        isElementDisplayed(By.xpath("//button[text()='RESET DAILY REPORT']"));
 
 
         return this;
@@ -282,7 +305,7 @@ public class TaskBase extends  BasePage{
 
 
         click(By.xpath("//span[@class='projectName___XDIry']"));
-        click(By.xpath("//div//li//span[text()='Doesntdelete']"));
+        click(By.xpath("//div//li//span[text()='Iplanner']"));
         click(By.xpath("//button[text()='Save']"));
         isElementDisplayed(By.xpath("//button[@class='ant-btn play-btn']"));
 

@@ -28,7 +28,7 @@ public class LoginBase extends BasePage{
     }
     public LoginBase isCorrect (){
 
-        isElementDisplayed(By.xpath("//span[@class='breadcrumb___Q09ij']"));
+        isElementDisplayed(By.xpath("//div[text()='TO DO LIST']"));
         return this;
 
     }

@@ -8,7 +8,7 @@ public class LoginPage extends MainPage {
     @Test
     public void Positive ()  {
         loginbase.goTo()
-                .login("st202010@gmail.com")
+                .login("sargis.harutyunyan@esterox.am")
                 .pass("12345678")
                 .chooseTask()
                 .isCorrect();

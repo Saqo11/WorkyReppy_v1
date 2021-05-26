@@ -1,0 +1,363 @@
+{
+  "uid" : "14a063ca6084063",
+  "name" : "AddATagName()",
+  "fullName" : "Test.TaskPage.AddATagName",
+  "historyId" : "9871125f200a0f08b74d97991a7c9e99",
+  "time" : {
+    "start" : 1621490548874,
+    "stop" : 1621490646125,
+    "duration" : 97251
+  },
+  "description" : "",
+  "status" : "broken",
+  "statusMessage" : "Supplied function might have stalled\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: driver.version: unknown",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Supplied function might have stalled\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:221)\r\n\tat BasePages.BasePage.waitVisibility(BasePage.java:26)\r\n\tat BasePages.BasePage.click(BasePage.java:34)\r\n\tat BasePages.TaskBase.AddTagName(TaskBase.java:180)\r\n\tat Test.TaskPage.AddATagName(TaskPage.java:77)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)\r\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)\r\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)\r\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)\r\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)\r\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)\r\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)\r\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)\r\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)\r\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\r\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\r\n\tat com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)\r\nCaused by: java.util.concurrent.TimeoutException\r\n\tat java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)\r\n\tat java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)\r\n\t... 67 more\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-4J87STC"
+  }, {
+    "name" : "thread",
+    "value" : "14176@DESKTOP-4J87STC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Test.TaskPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Test.TaskPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "AddATagName"
+  }, {
+    "name" : "suite",
+    "value" : "Test.TaskPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "de4bfd1031e43c3b",
+      "status" : "broken",
+      "statusDetails" : "element not interactable: [object HTMLSpanElement] has no size and location\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:50914}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2e5705a936bd53bf60b51e73ca24b681",
+      "time" : {
+        "start" : 1620139632330,
+        "stop" : 1620139696511,
+        "duration" : 64181
+      }
+    }, {
+      "uid" : "dbd87b61087044bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620139515288,
+        "stop" : 1620139595425,
+        "duration" : 80137
+      }
+    }, {
+      "uid" : "8b5566e57e2b5241",
+      "status" : "broken",
+      "statusDetails" : "element not interactable: [object HTMLButtonElement] has no size and location\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:50564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 81e4207a8d4b088b898d8bb96f93579f",
+      "time" : {
+        "start" : 1620139180807,
+        "stop" : 1620139251485,
+        "duration" : 70678
+      }
+    }, {
+      "uid" : "41dab00ceb6ffb15",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of all elements located by By.xpath: //button[@class=\"ant-modal-close\"] (tried for 25 second(s) with 500 milliseconds interval)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:50382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a5d9ad1d942e05904cf1fdd921cb816f",
+      "time" : {
+        "start" : 1620138928256,
+        "stop" : 1620139021888,
+        "duration" : 93632
+      }
+    }, {
+      "uid" : "d2e9ebd2bab1f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620138778500,
+        "stop" : 1620138859096,
+        "duration" : 80596
+      }
+    }, {
+      "uid" : "93657c18d43736bc",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[@class='ant-modal-close-x'] (tried for 25 second(s) with 500 milliseconds interval)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:50150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 45a645bddf59746561e53fc81700807d",
+      "time" : {
+        "start" : 1620138523223,
+        "stop" : 1620138618305,
+        "duration" : 95082
+      }
+    }, {
+      "uid" : "4fc9f092935c0860",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:50100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 70b705191bd35f5ebec8f27df6762d1b\n*** Element info: {Using=id, value=email}",
+      "time" : {
+        "start" : 1620138485009,
+        "stop" : 1620138506732,
+        "duration" : 21723
+      }
+    }, {
+      "uid" : "e97ed59490d8745a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[@class='ant-modal-close-x'] (tried for 25 second(s) with 500 milliseconds interval)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:50042}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 260e012ca97d1479160fd329e66b1134",
+      "time" : {
+        "start" : 1620138320631,
+        "stop" : 1620138415162,
+        "duration" : 94531
+      }
+    }, {
+      "uid" : "7efe139f36068743",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620138174759,
+        "stop" : 1620138251932,
+        "duration" : 77173
+      }
+    }, {
+      "uid" : "b7b0807627f1cbc6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@class='ant-modal-wrap ant-modal-centered'] (tried for 25 second(s) with 500 milliseconds interval)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:49788}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4064f6d23a4efe7a0f627e881f35b097",
+      "time" : {
+        "start" : 1620138002810,
+        "stop" : 1620138097066,
+        "duration" : 94256
+      }
+    }, {
+      "uid" : "99913496b1d21df2",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[@class='close-icon'] (tried for 25 second(s) with 500 milliseconds interval)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:49685}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 470a2834b335ff4022fbff90c682e70e",
+      "time" : {
+        "start" : 1620137818064,
+        "stop" : 1620137905211,
+        "duration" : 87147
+      }
+    }, {
+      "uid" : "4ea3cdab848a8e3a",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"task-bar-text___2VbLx\">...</span> is not clickable at point (818, 149). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap ant-modal-centered\" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:49601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7b4fcde27f957315013bd0b66f921fdd",
+      "time" : {
+        "start" : 1620137666551,
+        "stop" : 1620137711657,
+        "duration" : 45106
+      }
+    }, {
+      "uid" : "4a30f4383b35e502",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[@class='close-icon'] (tried for 25 second(s) with 500 milliseconds interval)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:53952}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b9dcae133196491eeda0751a1e0e134c",
+      "time" : {
+        "start" : 1620021586607,
+        "stop" : 1620021671028,
+        "duration" : 84421
+      }
+    }, {
+      "uid" : "ea38a17e5ffb9a7e",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"task-bar-text___2VbLx\">...</span> is not clickable at point (1141, 149). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap ant-modal-centered\" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:53790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6cdaf370cc0681fc415a23971695af84",
+      "time" : {
+        "start" : 1620021311890,
+        "stop" : 1620021366220,
+        "duration" : 54330
+      }
+    }, {
+      "uid" : "c91d4a97122881da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619978854332,
+        "stop" : 1619978945246,
+        "duration" : 90914
+      }
+    }, {
+      "uid" : "c461a3cbb40af946",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[@class='close-icon'] (tried for 25 second(s) with 500 milliseconds interval)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:50818}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9e4ccefc531d823124f87d5c1a0e335c",
+      "time" : {
+        "start" : 1619964703407,
+        "stop" : 1619964809874,
+        "duration" : 106467
+      }
+    }, {
+      "uid" : "f4254171369d326d",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"task-bar-text___2VbLx\">...</span> is not clickable at point (813, 149). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap ant-modal-centered\" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:50773}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0c39d5f6da0e5b1fd1112ac42f350485",
+      "time" : {
+        "start" : 1619964629759,
+        "stop" : 1619964677406,
+        "duration" : 47647
+      }
+    }, {
+      "uid" : "b0f29dee166e4303",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619964429820,
+        "stop" : 1619964509621,
+        "duration" : 79801
+      }
+    }, {
+      "uid" : "4a558b24e9fe9e39",
+      "status" : "broken",
+      "statusDetails" : "Supplied function might have stalled\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1619964305131,
+        "stop" : 1619964410650,
+        "duration" : 105519
+      }
+    }, {
+      "uid" : "98cbbd18438ef25f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[@class='close-icon'] (tried for 25 second(s) with 500 milliseconds interval)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:50161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9d882d7715cce1b04edf9a7f3a1c5e3f",
+      "time" : {
+        "start" : 1619964210043,
+        "stop" : 1619964288856,
+        "duration" : 78813
+      }
+    }, {
+      "uid" : "446c4665f66fdcf1",
+      "status" : "broken",
+      "statusDetails" : "Supplied function might have stalled\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1619963966671,
+        "stop" : 1619964086175,
+        "duration" : 119504
+      }
+    }, {
+      "uid" : "12f708b0f667f712",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[@class='close-icon'] (tried for 25 second(s) with 500 milliseconds interval)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:49868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e14c227c804328f0c8ba7fd3570f22cd",
+      "time" : {
+        "start" : 1619963845581,
+        "stop" : 1619963939507,
+        "duration" : 93926
+      }
+    }, {
+      "uid" : "e30e1b19187fb308",
+      "status" : "broken",
+      "statusDetails" : "Supplied function might have stalled\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1619963451736,
+        "stop" : 1619963569800,
+        "duration" : 118064
+      }
+    }, {
+      "uid" : "c5cb658c5189d8ca",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[@class='close-icon'] (tried for 25 second(s) with 500 milliseconds interval)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:63880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d6099fd8b1f9fc61799ee4c73ed833aa",
+      "time" : {
+        "start" : 1619963208623,
+        "stop" : 1619963302881,
+        "duration" : 94258
+      }
+    }, {
+      "uid" : "c617d4c5aab46145",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"task-bar-text___2VbLx\">...</span> is not clickable at point (818, 149). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap ant-modal-centered\" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:63487}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 85404afc9b791211220847de8b9948da",
+      "time" : {
+        "start" : 1619963113119,
+        "stop" : 1619963158936,
+        "duration" : 45817
+      }
+    }, {
+      "uid" : "44b949504cb645ee",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[@class='close-icon'] (tried for 25 second(s) with 500 milliseconds interval)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:63037}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4f4b50d9f48fa2061f0ba37d020e203a",
+      "time" : {
+        "start" : 1619962932583,
+        "stop" : 1619963028955,
+        "duration" : 96372
+      }
+    }, {
+      "uid" : "79ba17266209c42a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of all elements located by By.xpath: //div/span[@class='task-bar-text___2VbLx'] (tried for 25 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1619962807215,
+        "stop" : 1619962881125,
+        "duration" : 73910
+      }
+    }, {
+      "uid" : "9f007935b5b356db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619785083620,
+        "stop" : 1619785158162,
+        "duration" : 74542
+      }
+    }, {
+      "uid" : "9e286df6c7bf642e",
+      "status" : "broken",
+      "statusDetails" : "Supplied function might have stalled\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1619186715013,
+        "stop" : 1619186827716,
+        "duration" : 112703
+      }
+    }, {
+      "uid" : "cec9fed799950762",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression //input[@placeholder='Add/Edit a tag name'] ] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@placeholder='Add/Edit a tag name'] ]' is not a valid XPath expression.\n  (Session info: chrome=88.0.4324.190)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:63791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 839fcacab7b6fbdc0dddd27f1708401e\n*** Element info: {Using=xpath, value=//input[@placeholder='Add/Edit a tag name'] ]}",
+      "time" : {
+        "start" : 1615490479097,
+        "stop" : 1615490558608,
+        "duration" : 79511
+      }
+    }, {
+      "uid" : "19e5ecd7955147e3",
+      "status" : "broken",
+      "statusDetails" : "Supplied function might have stalled\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1615489991439,
+        "stop" : 1615490095346,
+        "duration" : 103907
+      }
+    }, {
+      "uid" : "a35e5c3c86505122",
+      "status" : "broken",
+      "statusDetails" : "Supplied function might have stalled\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1615486504642,
+        "stop" : 1615486624291,
+        "duration" : 119649
+      }
+    }, {
+      "uid" : "b63ede771c9b3b9f",
+      "status" : "broken",
+      "statusDetails" : "Supplied function might have stalled\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1615485522187,
+        "stop" : 1615485575936,
+        "duration" : 53749
+      }
+    }, {
+      "uid" : "c53473f7b1ecdbe2",
+      "status" : "broken",
+      "statusDetails" : "Supplied function might have stalled\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1614768268856,
+        "stop" : 1614768387228,
+        "duration" : 118372
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "14a063ca6084063.json",
+  "parameterValues" : [ ]
+}

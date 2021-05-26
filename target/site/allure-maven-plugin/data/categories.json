@@ -1,0 +1,189 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Supplied function might have stalled\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "RunTask()",
+        "uid" : "e05d9fadb0c1b8c9",
+        "parentUid" : "9c7540f427cb858d9cead10b6d94cdf8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619186938519,
+          "stop" : 1619187050693,
+          "duration" : 112174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ClickViewButton()",
+        "uid" : "1bebf59c805c8dbe",
+        "parentUid" : "9c7540f427cb858d9cead10b6d94cdf8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619187050706,
+          "stop" : 1619187159224,
+          "duration" : 108518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ClickViewButtonChangeTime()",
+        "uid" : "4e77e57a0040f132",
+        "parentUid" : "9c7540f427cb858d9cead10b6d94cdf8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619187213965,
+          "stop" : 1619187309778,
+          "duration" : 95813
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "dailyyReportPopup()",
+        "uid" : "fd4534d7acc87665",
+        "parentUid" : "9c7540f427cb858d9cead10b6d94cdf8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619187309790,
+          "stop" : 1619187405632,
+          "duration" : 95842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ManualMode()",
+        "uid" : "e7d7f39d750a3045",
+        "parentUid" : "9c7540f427cb858d9cead10b6d94cdf8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619187527616,
+          "stop" : 1619187624111,
+          "duration" : 96495
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c7540f427cb858d9cead10b6d94cdf8"
+    }, {
+      "name" : "element click intercepted: Element <button tabindex=\"0\" type=\"button\" class=\"ant-btn task-bar-item___28XZZ ant-btn-link\">...</button> is not clickable at point (1009, 139). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap ant-modal-centered\" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=89.0.4389.128)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:57328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9e45349129636738014eddb8eac7f037",
+      "children" : [ {
+        "name" : "ClickViewButtonChangeName()",
+        "uid" : "5f8f3f066903e7e3",
+        "parentUid" : "3a6de2929feed4dd4f5334a5766f0732",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619187159235,
+          "stop" : 1619187213942,
+          "duration" : 54707
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a6de2929feed4dd4f5334a5766f0732"
+    }, {
+      "name" : "Supplied function might have stalled\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "AddATag()",
+        "uid" : "20dbb22df7a85bd7",
+        "parentUid" : "dc2a2d5008f41baf1b89adec81f5d7f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619783380457,
+          "stop" : 1619783475880,
+          "duration" : 95423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "dailyReportPopup()",
+        "uid" : "e6142f103bf574de",
+        "parentUid" : "dc2a2d5008f41baf1b89adec81f5d7f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620196995632,
+          "stop" : 1620197108204,
+          "duration" : 112572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc2a2d5008f41baf1b89adec81f5d7f5"
+    }, {
+      "name" : "Supplied function might have stalled\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "ProjectTags()",
+        "uid" : "64a6e1273c0f8396",
+        "parentUid" : "f53e20c705296ae206800e33bdb13779",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621344290268,
+          "stop" : 1621344401858,
+          "duration" : 111590
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AddATagName()",
+        "uid" : "14a063ca6084063",
+        "parentUid" : "f53e20c705296ae206800e33bdb13779",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621490548874,
+          "stop" : 1621490646125,
+          "duration" : 97251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f53e20c705296ae206800e33bdb13779"
+    }, {
+      "name" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=90.0.4430.212)\nBuild info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\QA\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:51373}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4b1bfa12c875b92f6c0432b44fdf66f8\n*** Element info: {Using=id, value=email}",
+      "children" : [ {
+        "name" : "groupTusk()",
+        "uid" : "6a6cc47347ef84fc",
+        "parentUid" : "b4e7e5311bb78700f2300c2bb5570535",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621490646370,
+          "stop" : 1621490650326,
+          "duration" : 3956
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b4e7e5311bb78700f2300c2bb5570535"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of all elements located by By.xpath: //*[@id=\"primaryLayout\"]/main/div/div/div[1]/div[1]/div/div/div[3]/div/div/button/span[1] (tried for 25 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "TheTasksTablePlayButton()",
+        "uid" : "b424d726851e66e8",
+        "parentUid" : "a7680a854b07f1c3a4437541f79a8dee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621490836984,
+          "stop" : 1621490930261,
+          "duration" : 93277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7680a854b07f1c3a4437541f79a8dee"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
