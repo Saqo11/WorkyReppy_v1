@@ -3,16 +3,20 @@ package BasePages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import static java.lang.Thread.sleep;
 
 public class LoginBase extends BasePage{
+
     String SITE_URL = ("http://worky-reppy-dev.esterox.org/en/login?from=%2Fen%2Ftasks");
-
-
     public LoginBase(WebDriver driver) {
         super(driver);
+
     }
+      @FindBy(xpath = "//button[text()='Sign in']")
+      private  WebElement button;
+
     public LoginBase goTo (){
         driver.get(SITE_URL);
 
@@ -20,7 +24,7 @@ public class LoginBase extends BasePage{
 
     }
     public LoginBase chooseTask  () {
-        click(By.xpath("//button[text()='Sign in']"));
+       button.click();
 
         return this;
 

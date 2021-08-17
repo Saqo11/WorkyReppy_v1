@@ -1,6 +1,3 @@
-Test\LoginPage.class
-Test\TaskPage.class
 BasePages\LoginBase.class
-Test\MainPage.class
-BasePages\BasePage.class
 BasePages\TaskBase.class
+BasePages\BasePage.class
